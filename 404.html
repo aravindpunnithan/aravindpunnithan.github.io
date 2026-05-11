@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Not Found — Aravind Punnithan</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..600;1,9..144,300..500&family=Newsreader:ital,opsz,wght@0,6..72,300..500;1,6..72,300..500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+  <style>
+    .lost {
+      max-width: var(--measure);
+      margin: 0 auto;
+      padding: clamp(5rem, 14vw, 9rem) var(--gutter);
+      text-align: left;
+    }
+    .lost h1 {
+      font-family: var(--display);
+      font-weight: 350;
+      font-size: clamp(2.5rem, 6vw, 4rem);
+      line-height: 1;
+      letter-spacing: -0.02em;
+      margin: 0 0 1.5rem;
+    }
+    .lost h1 em { font-style: italic; color: var(--rust); }
+    .lost p {
+      color: var(--ink-soft);
+      font-size: 1.125rem;
+      font-style: italic;
+      margin: 0 0 2rem;
+      max-width: 40ch;
+    }
+    .lost a {
+      font-family: var(--display);
+      font-size: 1rem;
+      letter-spacing: 0.02em;
+    }
+  </style>
+</head>
+<body>
+  <header class="site-header">
+    <a href="/" class="wordmark"><span class="wordmark-initials">AP</span></a>
+  </header>
+
+  <main>
+    <section class="lost">
+      <p class="eyebrow">404 &middot; Not Found</p>
+      <h1>You are <em>somewhere else.</em></h1>
+      <p>The page you were looking for does not exist on this site — or no longer does.</p>
+      <a href="/">&larr; Return to the front</a>
+    </section>
+  </main>
+</body>
+</html>
