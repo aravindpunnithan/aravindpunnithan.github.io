@@ -1,54 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Not Found — Aravind Punnithan</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..600;1,9..144,300..500&family=Newsreader:ital,opsz,wght@0,6..72,300..500;1,6..72,300..500&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="styles.css" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>404 - aravind p unnithan</title>
+  <meta name="theme-color" content="#16130f">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
   <style>
     .lost {
       max-width: var(--measure);
       margin: 0 auto;
       padding: clamp(5rem, 14vw, 9rem) var(--gutter);
-      text-align: left;
     }
-    .lost h1 {
-      font-family: var(--display);
-      font-weight: 350;
-      font-size: clamp(2.5rem, 6vw, 4rem);
-      line-height: 1;
-      letter-spacing: -0.02em;
-      margin: 0 0 1.5rem;
-    }
-    .lost h1 em { font-style: italic; color: var(--rust); }
-    .lost p {
-      color: var(--ink-soft);
-      font-size: 1.125rem;
-      font-style: italic;
-      margin: 0 0 2rem;
-      max-width: 40ch;
-    }
-    .lost a {
-      font-family: var(--display);
-      font-size: 1rem;
-      letter-spacing: 0.02em;
-    }
+    .lost .cmd { margin-bottom: 1.4rem; }
+    .lost h1 { font-size: clamp(1.5rem, 4vw, 2.25rem); margin: 0 0 1rem; }
+    .lost p { color: var(--fg-soft); max-width: 52ch; margin: 0 0 1.6rem; }
+    .lost a { font-size: 14px; }
   </style>
 </head>
 <body>
-  <header class="site-header">
-    <a href="/" class="wordmark"><span class="wordmark-initials">AP</span></a>
+  <header class="bar">
+    <a href="/" class="brand"><span class="prompt">~/aravind</span></a>
   </header>
 
   <main>
     <section class="lost">
-      <p class="eyebrow">404 &middot; Not Found</p>
-      <h1>You are <em>somewhere else.</em></h1>
-      <p>The page you were looking for does not exist on this site — or no longer does.</p>
-      <a href="/">&larr; Return to the front</a>
+      <p class="cmd"><span class="who">~/aravind</span> <span class="sep">$</span> cat <span style="color:var(--fg-soft)">404</span></p>
+      <h1>not found</h1>
+      <p>
+        the page you wanted is not here.
+      </p>
+      <p>
+        <a href="/">← back to the front</a>
+      </p>
     </section>
   </main>
 </body>

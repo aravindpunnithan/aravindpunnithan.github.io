@@ -2,7 +2,7 @@
 
 Source for my personal site at **[aravindpunnithan.github.io](https://aravindpunnithan.github.io)**.
 
-A small, hand-built page. No build step, no framework — just HTML and CSS.
+A small, hand-built page. Plain HTML and CSS.
 
 ## Structure
 
@@ -10,24 +10,28 @@ A small, hand-built page. No build step, no framework — just HTML and CSS.
 .
 ├── index.html      # the page
 ├── styles.css      # all styles
-├── 404.html        # gentle not-found page
+├── 404.html        # a quiet not-found page
 └── README.md
 ```
 
-## Local preview
-
-Open `index.html` in a browser, or serve it with anything:
+## Run it locally
 
 ```bash
 python3 -m http.server 8000
-# then visit http://localhost:8000
+# http://localhost:8000
 ```
 
 ## Type
 
-- **Display:** Fraunces (Google Fonts)
-- **Body:** Newsreader (Google Fonts)
+JetBrains Mono via Google Fonts. Falls back to the system monospace
+if it cannot load.
+
+## Theme
+
+Dark by default. A small toggle in the header flips it to light, and the
+choice is remembered in `localStorage`. Respects `prefers-color-scheme`
+when no choice has been made.
 
 ## License
 
-Content © Aravind Punnithan. Code freely reusable under the MIT License.
+Released into the public domain. See [UNLICENSE](UNLICENSE).

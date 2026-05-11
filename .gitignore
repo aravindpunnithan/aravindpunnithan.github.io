@@ -13,3 +13,6 @@ Thumbs.db
 
 # Node (if you ever add tooling)
 node_modules/
+
+# Local backups
+_backup/
