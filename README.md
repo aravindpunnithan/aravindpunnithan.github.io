@@ -29,8 +29,7 @@ if it cannot load.
 ## Theme
 
 Dark by default. A small toggle in the header flips it to light, and the
-choice is remembered in `localStorage`. Respects `prefers-color-scheme`
-when no choice has been made.
+choice is remembered in `localStorage`.
 
 ## License
 

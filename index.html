@@ -226,11 +226,7 @@
       if (saved === 'light' || saved === 'dark') root.setAttribute('data-theme', saved);
 
       btn.addEventListener('click', function () {
-        var current = root.getAttribute('data-theme');
-        if (!current) {
-          var prefersLight = window.matchMedia('(prefers-color-scheme: light)').matches;
-          current = prefersLight ? 'light' : 'dark';
-        }
+        var current = root.getAttribute('data-theme') || 'dark';
         var next = current === 'dark' ? 'light' : 'dark';
         root.setAttribute('data-theme', next);
         localStorage.setItem(key, next);

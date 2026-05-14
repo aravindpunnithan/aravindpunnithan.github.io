@@ -28,18 +28,6 @@
   --rule:      #d9d0bd;
 }
 
-@media (prefers-color-scheme: light) {
-  :root:not([data-theme]) {
-    --bg:        #f4ede0;
-    --bg-soft:   #ece3d2;
-    --fg:        #1f1b16;
-    --fg-soft:   #4a4138;
-    --fg-faint:  #80766a;
-    --accent:    #8b3a1f;
-    --rule:      #d9d0bd;
-  }
-}
-
 *, *::before, *::after { box-sizing: border-box; }
 
 html { scroll-behavior: smooth; scroll-padding-top: 6rem; }
