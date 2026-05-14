@@ -261,6 +261,19 @@ strong {
   margin-top: 1.4rem;
 }
 
+/* ── tools list inside a note ──────────────────── */
+.tools {
+  list-style: none;
+  padding: 0;
+  margin: 0.8rem 0 0;
+}
+.tools li {
+  padding: 0.4rem 0;
+  color: var(--fg-soft);
+}
+.tools .t { color: var(--fg); }
+.tools .sepdot { color: var(--fg-faint); margin: 0 0.25rem; }
+
 /* ── notes ─────────────────────────────────────── */
 .note {
   padding: 1.2rem 0;
